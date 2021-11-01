@@ -21,6 +21,7 @@ public class ExercisesTest {
         Assert.assertEquals(exerciseTest.isBalanced("[[(())]]"), "YES");
     }
 
+    @Test
     public void case_4() {
         Assert.assertEquals(exerciseTest.isBalanced(""), "YES");
     }
